@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-6">
+    <footer className="bg-black-900 text-white py-6">
       <div className="flex justify-center space-x-6 mb-4">
         <a
           href="https://github.com/yourusername"
@@ -38,7 +38,7 @@ const Footer = () => {
         </a>
       </div>
       <p className="text-center text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+        &copy; {new Date().getFullYear()} Abdul Samad. All rights reserved.
       </p>
     </footer>
   );
